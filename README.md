@@ -12,8 +12,13 @@ scripts works with 5 input
 
 
 ![conemu output](https://i.imgur.com/CcscwSB.png)
+
+
 A screenshot from conEmu output (rich text)
 
 
-![cmd output]https://i.imgur.com/lR8XcBa.png
+
+![cmd output](https://i.imgur.com/lR8XcBa.png)
+
+
 A Screenshot from command line output
