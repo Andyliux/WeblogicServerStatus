@@ -28,10 +28,8 @@ def printFormat(serverName, serverState):
     serverHealth= '# '+ serverHealth.ljust(50) + '#\n'
     return serverHealth
 	
-def serverStatus(url,ports,formatType):
+def serverStatus(url,ports,formatType,username,password):
     serverstat = '############          ' + url + '          #############\n'
-    username = 'weblogic'
-    password = 'weblogic!1'
     portArr=ports.split(',')
     for port in portArr:
         try:	
@@ -67,5 +65,5 @@ def serverStatus(url,ports,formatType):
 
 	
 result=''
-result = result + serverStatus(sys.argv[1],sys.argv[2],sys.argv[3])
+result = result + serverStatus(sys.argv[1],sys.argv[2],sys.argv[3],sys.argv[4],sys.argv[5])
 print result
