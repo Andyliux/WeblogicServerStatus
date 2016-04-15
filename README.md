@@ -1,9 +1,10 @@
 # WeblogicServerStatus
 a python script to monitor all server status on weblogic server
-you can directly call ServerStatus.py  in wlst or you can call serverstatus.bat in cmd. If you decide to use bat file you need to update the path of setWLSEnv.cmd in serverstatus.bat
+you can directly call "ServerStatus.py"  in wlst or you can call serverstatus.bat in cmd. If you decide to use bat file you need to update the path of setWLSEnv.cmd in "serverstatus.bat"
 e.g C:\Oracle\MW\wlserver_10.3\server\bin\setWLSEnv.cmd
 
 scripts works with 5 input
+
 1- servername
 
 2- server port address
@@ -16,11 +17,10 @@ scripts works with 5 input
 
 
 ![conemu output](https://i.imgur.com/CcscwSB.png)
-
 A screenshot from conEmu output (rich text)
 
 
 
-![cmd output](https://i.imgur.com/lR8XcBa.png)
 
+![cmd output](https://i.imgur.com/lR8XcBa.png)
 A Screenshot from command line output
