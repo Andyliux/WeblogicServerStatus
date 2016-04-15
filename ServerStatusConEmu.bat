@@ -1,0 +1,1 @@
+"C:\Program Files\ConEmu\ConEmu64.exe" /cmd "serverstats.bat conEmu
